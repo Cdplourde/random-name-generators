@@ -57,7 +57,7 @@ export default {
    ** Plugins to load before mounting the App
    */
   plugins: [
-    { src: '~plugins/ga.js', mode: 'client' }
+    // { src: '~plugins/ga.js', mode: 'client' }
   ],
   /*
    ** Nuxt.js dev-modules
@@ -72,6 +72,7 @@ export default {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
+    ['@nuxtjs/google-tag-manager', { id: process.env.GTM }],
     'nuxt-purgecss'
   ],
   /*
