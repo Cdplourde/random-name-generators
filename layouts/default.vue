@@ -1,34 +1,35 @@
 <template>
-  <!-- page container -->
-  <div class="w-screen min-h-full bg-pallet-background overflow-hidden">
-    <!-- navbar -->
-    <nav class="sticky top-0 bg-pallet-navbar w-full h-16 z-50 md:mb-4">
-      <!-- navbar inner content -->
-      <div class="nav-inner mx-auto max-w-6xl h-full md:px-4">
-        <button
-          class="hamburger hamburger--collapse"
-          type="button"
-        >
-          <span class="hamburger-box">
-            <span class="hamburger-inner"></span>
-          </span>
-        </button>
-        <div class="h-full inline-block">
-          <h1 class="text-xl md:text-3xl font-bold text-gray-300 flex items-center h-full relative">Random Name Generators</h1>
-        </div>
-      </div>
-    </nav>
-    <!-- inner page wrapper -->
-    <div class="page-wrapper mx-auto max-w-6xl relative md:mb-4">
-      <!-- sidebar -->
-      <div class="sidebar bg-pallet-sidebar fixed w-64 md:ml-4 shadow-lg md:rounded hidden md:block text-gray-300 text-center pt-4">SIDEBAR STUFF</div>
+  <div class="w-screen min-h-full bg-pallet-background overflow-x-hidden">
+    <Navbar />
+    <div class="page-wrapper mx-auto max-w-6xl relative">
+      <Sidebar />
       <!-- main content -->
-      <div class="bg-pallet-main min-h-full text-pallet-text px-4 pt-4 md:px-8 shadow-lg md:rounded md:ml-72 md:mr-4">
+      <div class="bg-pallet-main min-h-full text-pallet-text px-4 pt-4 pb-4 md:px-8 shadow-lg md:ml-72 md:mr-4">
         <nuxt />
       </div>
+      <div v-if="!sidebarToggled" class="overlay w-full h-full absolute top-0 md:ml-72 md:mr-4"></div>
     </div>
+    <Footer />
   </div>
 </template>
+
+<script>
+import Sidebar from '~/components/Sidebar.vue'
+import Navbar from '~/components/Navbar.vue'
+import Footer from '~/components/Footer.vue'
+import { mapState } from 'vuex'
+
+export default {
+  components: {
+    Sidebar,
+    Navbar,
+    Footer
+  },
+  computed: mapState([
+    'sidebarToggled'
+  ]),
+}
+</script>
 
 <style scoped>
 /* Sample `apply` at-rules with Tailwind CSS
@@ -37,37 +38,38 @@
 }
 */
 .page-wrapper {
-  height: calc(100vh - 4rem);
+  height: calc(100vh - 7rem);
   max-width: 80rem;
   min-width: 320px;
-}
-
-nav {
-  min-width: 320px;
-}
-
-@media (min-width: 768px) {
-  .sidebar {
-    height: calc(100vh - 6rem);
-  }
-  .page-wrapper {
-    height: calc(100vh - 6rem);
-  }
-  .hamburger {
-    display: none;
-  }
-}
-
-.nav-inner {
-  max-width: 80rem;
 }
 
 .sidebar {
   height: calc(100vh - 6rem);
-  top: 5rem;
+  top: 4rem;
+  scrollbar-width: none;
+}
+
+.sidebar::-webkit-scrollbar {
+  display: none;
 }
 
 h1 {
   bottom: 0.2rem;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
+@media (min-width: 768px) {
+  .sidebar {
+    height: calc(100vh - 4rem);
+  }
+  .page-wrapper {
+    height: calc(100vh - 7rem);
+  }
+  .hamburger {
+    display: none;
+  }
 }
 </style>

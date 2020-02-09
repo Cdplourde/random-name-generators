@@ -1,0 +1,91 @@
+<template>
+  <div>
+    <Generator
+      title="Girl Name Generator"
+      :names="names"
+      :image="image"
+    />
+    <button
+      @click="getNames"
+      class="text-pallet-navbar bg-pallet-text px-4 py-3 rounded-lg mt-4 font-bold text-lg antialiased border-pallet-navbar shadow w-full sm:w-48 outline-none"
+    >Get More Names</button>
+    <hr class="mt-6">
+    <img
+      class="w-full mt-6 rounded"
+      src="https://via.placeholder.com/500x70"
+      alt=""
+    >
+    <ExploreMore title="Explore More Generators" />
+    <div class="pt-4">
+      <h2 class="text-2xl md:text-3xl bg-pallet-sidebar shadow-lg md:pl-4 rounded text-center md:text-left">About This Generator</h2>
+      <div class="lg:flex text-gray-300">
+        <div class="flex-1 bg-pallet-background m-2 mt-4 ml-0 p-4 rounded shadow-xl">
+          <h3 class="text-2xl pb-2">Random Girl Name Generator</h3>
+          <p class="pb-2">If you need a random female name, you’ve come to the right place! This girl name generator includes over 850 female names from different time periods and cultural origins, giving you a huge variety of choices.</p>
+          <p class="pb-2">We also include alternate spellings for female names so you can get creative and unique. Find female baby name ideas or use it as a character name generator for the girls and women in your novel - you decide!</p>
+          <p>Each time you click the button, this female name generator will create a list of 10 random girl names. Don’t like your options? Just click again and you’ll get 10 more female names to choose from.</p>
+        </div>
+        <div class="flex-1 bg-pallet-background m-2 mt-4 mr-0 p-4 rounded shadow-xl">
+          <h3 class="text-2xl pb-2">Generators for Female Names & More</h3>
+          <p class="pb-2">We’ve taken the time to gather and curate thousands of names and build them into fun and easy-to-use <router-link to="/">name generators</router-link>.</p>
+          <p>In addition to girl names, we also have a <router-link to="/g/boy">boy name generator</router-link>, a unisex name generator, and many more! We continually update each generator because we want to offer as many options as possible. Have fun exploring all our generators using the menu!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+import ExploreMore from '~/components/ExploreMore.vue'
+import Generator from '~/components/Generator.vue'
+import girlNames from '~/static/names/girl.json'
+import girlNameImage from '~/static/images/girl-female-name-generator.png'
+
+export default {
+  components: {
+    Generator,
+    ExploreMore
+  },
+  data: function () {
+    return {
+      names: [],
+      image: girlNameImage
+    }
+  },
+  methods: {
+    getNames () {
+      const tempArr = []
+      for (let i = 0; i < 12; i++) {
+        const randomIndex = Math.floor(Math.random() * girlNames.names.length)
+        if (!tempArr.includes(girlNames.names[randomIndex])) {
+          tempArr.push(girlNames.names[randomIndex])
+          this.names = tempArr
+        } else {
+          i--
+        }
+
+      }
+    }
+  },
+  mounted: function () {
+    this.getNames()
+  },
+  head () {
+    return {
+      title: 'Girl Name Generator - Get Random Female Names!',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Find the perfect girl name with this name generator, female edition! Discover hundreds of random female names for characters, babies and more.' }
+      ]
+    }
+  }
+}
+</script>
+
+<style scoped>
+  a:link {
+    color: #00cda2;
+  }
+  a:visited {
+    color: #2fadb1;
+  }
+</style>

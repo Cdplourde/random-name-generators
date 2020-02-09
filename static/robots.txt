@@ -1,0 +1,10 @@
+
+User-agent: 008
+Disallow: /
+
+User-Agent: *
+Disallow:
+
+
+# Sitemap files
+Sitemap: https://www.randomnamegenerators.com/sitemap.xml

@@ -1,5 +1,34 @@
+const fs = require('fs')
+const path = require('path')
+
+let ENV_DEV = true
+
+// Development Environment
+let port = 3000
+let host = 'localhost'
+let https = false
+if (ENV_DEV == false) {
+  port = 3000
+  host = '<domain-name>'
+  https =  {
+        key: fs.readFileSync(path.resolve(__dirname,
+        './../../ssl/keys/<ssl-key-file-name>.key')),
+  cert: fs.readFileSync(path.resolve(__dirname,
+        './../../ssl/certs/<ssl-crt-file-name>.crt'))
+  }
+}
+
 export default {
   mode: 'universal',
+  env: {
+
+  },
+  server: {
+    port: port,
+    host: host,
+    timing: false,
+    https: https
+  },
   /*
    ** Headers of the page
    */
