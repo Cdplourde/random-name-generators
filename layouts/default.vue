@@ -28,6 +28,13 @@ export default {
   computed: mapState([
     'sidebarToggled'
   ]),
+  head () {
+    return {
+      script: [
+        { src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js%22%3E' }
+      ]
+    }
+  }
 }
 </script>
 
