@@ -64,15 +64,18 @@ export default {
    */
   buildModules: [
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/gtm'
   ],
+  gtm: {
+    id: process.env.GTM
+  },
   /*
    ** Nuxt.js modules
    */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    ['@nuxtjs/google-tag-manager', { id: process.env.GTM }],
     'nuxt-purgecss'
   ],
   /*
