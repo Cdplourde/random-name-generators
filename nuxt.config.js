@@ -68,7 +68,8 @@ export default {
     '@nuxtjs/gtm'
   ],
   gtm: {
-    id: process.env.GTM
+    id: process.env.GTM,
+    pageTracking: true
   },
   /*
    ** Nuxt.js modules
