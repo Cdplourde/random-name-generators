@@ -10,6 +10,7 @@
     >Surprise Me!</button> -->
     <button
       class="text-pallet-navbar bg-pallet-text px-4 py-3 rounded-lg mt-4 font-bold text-lg antialiased border-pallet-navbar shadow w-full sm:w-48 outline-none"
+      @click="redirectRandomGenerator"
     >Surprise Me!</button>
     <hr class="mt-6">
     <ExploreMore title="Most Popular Name Generators" />
@@ -35,6 +36,12 @@ export default {
       meta: [
         { hid: 'description', name: 'description', content: 'Generate a list of random names with just one click! Explore dozens of name generators and thousands of possible names for babies, characters, inspiration and more.' }
       ]
+    }
+  },
+  methods: {
+    redirectRandomGenerator() {
+      const allGenerators = []
+      // TODO:
     }
   }
 }
