@@ -68,14 +68,14 @@ export default {
     [
       '@nuxtjs/google-analytics',
       {
-        id: 'UA - 158090632 - 1'
+        id: 'UA-158090632-1'
       }
     ]
   ],
-  // debug: {
-  //   enabled: true,
-  //   sendHitTask: true
-  // },
+  debug: {
+    enabled: true,
+    sendHitTask: true
+  },
   /*
    ** Nuxt.js modules
    */
