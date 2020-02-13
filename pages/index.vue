@@ -24,7 +24,6 @@
 
 <script>
 import ExploreMore from '~/components/ExploreMore.vue'
-import path from 'path'
 
 export default {
   components: {
@@ -40,8 +39,10 @@ export default {
   },
   methods: {
     redirectRandomGenerator() {
-      const allGenerators = []
-      // TODO:
+      // TODO: pull generator names dynamically
+      const allGenerators = ['boy', 'first', 'girl', 'unisex']
+      const randomGen = '/g/' + allGenerators[Math.floor(Math.random() * allGenerators.length)]
+      this.$router.push(randomGen)
     }
   }
 }

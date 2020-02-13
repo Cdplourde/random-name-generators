@@ -64,7 +64,6 @@ export default {
           i--
         }
       }
-      console.log(tempArr)
     }
   },
   mounted: function () {
