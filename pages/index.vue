@@ -2,7 +2,7 @@
   <div>
     <h1 class="text-pallet-text text-3xl md:text-4xl bg-pallet-sidebar shadow-lg md:pl-4 rounded text-center md:text-left">Generate Random Names!</h1>
       <div class="bg-pallet-background text-gray-200 p-4 mt-4 rounded">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolorem explicabo reprehenderit nobis fugiat, laboriosam blanditiis eos, rem unde aliquid debitis tempore officia repudiandae consequatur dignissimos iste nam odit exercitationem!Sequi eius laborum quisquam ipsa quae dignissimos porro excepturi! Nulla non recusandae perferendis tempore facere. Voluptate vero sint nobis dolor sed voluptates? Recusandae blanditiis explicabo sequi corrupti placeat, nobis quisquam!</p>
+        <p class="text-lg">Welcome to Random Name Generator! For babies, characters, and nicknames, choosing a name can be a daunting task. That’s where our collection of name generators comes in. Browse around and explore thousands of potential names. You’re sure to discover the perfect fit. </p>
       </div>
     <!-- <button
       class="text-pallet-navbar bg-pallet-text px-4 py-3 rounded-lg mt-4 font-bold text-lg antialiased border-pallet-navbar shadow w-full sm:w-48 outline-none"
@@ -19,9 +19,25 @@
       src="https://via.placeholder.com/500x70"
       alt=""
     >
+    <div class="pt-4">
+      <h2 class="text-2xl md:text-3xl bg-pallet-sidebar shadow-lg md:pl-4 rounded text-center md:text-left">About Random Name Generators</h2>
+      <div class="lg:flex text-gray-300">
+        <div class="flex-1 bg-pallet-background m-2 mt-4 ml-0 p-4 rounded shadow-xl">
+          <h3 class="text-2xl pb-2">Find the Perfect Name</h3>
+          <p class="pb-2">Names can be hard. There’s a lot of pressure to find that perfect name, that perfect fit! </p>
+          <p class="pb-2">We developed Random Name Generator as a user-friendly tool to browse dozens of names at a time. Instead of getting overwhelmed by long lists of names, explore your naming options in small, manageable chunks. It’s the best way to find names without giving yourself a headache or skimming over what might be the perfect name.</p>
+          <p>Click through lots of options quickly until you chance upon one that clicks! With so many possibilities, you’re sure to find exactly what you need to name babies, pets, original characters, and more.</p>
+        </div>
+        <div class="flex-1 bg-pallet-background m-2 mt-4 mr-0 p-4 rounded shadow-xl">
+          <h3 class="text-2xl pb-2">Name Generators For Every Need</h3>
+          <p class="pb-2">With thousands of names to choose from, our name generators are perfect for any need. Currently we only offer a small selection of name generators, but we’re excited to add more!</p>
+          <p>We’ve put a lot of time and effort into curating each generator to give you as many options as possible. Generators include names from various cultures, time periods, and more - including alternate or unique spellings.</p>
+          <p>Each name generator is organized by type. For baby boy names or male characters, check out our random <router-link to="/g/boy">boy name generator</router-link> and start exploring hundreds of options! For girls names, head over to our <router-link to="/g/girl">girl name generator</router-link> and start clicking.</p>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
-
 <script>
 import ExploreMore from '~/components/ExploreMore.vue'
 
@@ -47,3 +63,12 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+  a:link {
+    color: #00cda2;
+  }
+  a:visited {
+    color: #2fadb1;
+  }
+</style>

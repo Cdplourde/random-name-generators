@@ -82,7 +82,10 @@ export default {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    'nuxt-purgecss'
+    'nuxt-purgecss',
+    ['@nuxtjs/google-adsense', {
+      id: 'ca-pub-2310955616732742'
+    }]
   ],
   /*
    ** PurgeCSS settings
