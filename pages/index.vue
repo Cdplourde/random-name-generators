@@ -1,8 +1,9 @@
 <template>
   <div>
     <h1 class="text-pallet-text text-3xl md:text-4xl bg-pallet-sidebar shadow-lg md:pl-4 rounded text-center md:text-left">Generate Random Names!</h1>
-      <div class="bg-pallet-background text-gray-200 p-4 mt-4 rounded">
+      <div class="bg-pallet-background text-gray-200 p-4 mt-4 rounded flex">
         <p class="text-lg">Welcome to Random Name Generator! For babies, characters, and nicknames, choosing a name can be a daunting task. That’s where our collection of name generators comes in. Browse around and explore thousands of potential names. You’re sure to discover the perfect fit. </p>
+        <!-- <img class="flex-1 ml-2 rounded hidden lg:block max-w-full shadow-lg w-56 overflow w-1/2" :src="image" alt="random name generators"> -->
       </div>
     <!-- <button
       class="text-pallet-navbar bg-pallet-text px-4 py-3 rounded-lg mt-4 font-bold text-lg antialiased border-pallet-navbar shadow w-full sm:w-48 outline-none"
@@ -14,11 +15,11 @@
     >Surprise Me!</button>
     <hr class="mt-6">
     <ExploreMore title="Most Popular Name Generators" />
-    <img
+    <!-- <img
       class="w-full mt-6 rounded"
       src="https://via.placeholder.com/500x70"
       alt=""
-    >
+    > -->
     <div class="pt-4">
       <h2 class="text-2xl md:text-3xl bg-pallet-sidebar shadow-lg md:pl-4 rounded text-center md:text-left">About Random Name Generators</h2>
       <div class="lg:flex text-gray-300">
@@ -40,10 +41,16 @@
 </template>
 <script>
 import ExploreMore from '~/components/ExploreMore.vue'
+import randomNameImage from '~/static/images/random-name-generators.png'
 
 export default {
   components: {
     ExploreMore
+  },
+  data: function () {
+    return {
+      image: randomNameImage
+    }
   },
   head () {
     return {

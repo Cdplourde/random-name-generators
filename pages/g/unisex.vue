@@ -10,11 +10,11 @@
       class="text-pallet-navbar bg-pallet-text px-4 py-3 rounded-lg mt-4 font-bold text-lg antialiased border-pallet-navbar shadow w-full sm:w-48 outline-none"
     >Get More Names</button>
     <hr class="mt-6">
-    <img
+    <!-- <img
       class="w-full mt-6 rounded"
       src="https://via.placeholder.com/500x70"
       alt=""
-    >
+    > -->
     <ExploreMore title="Explore More Generators" />
     <div class="pt-4">
       <h2 class="text-2xl md:text-3xl bg-pallet-sidebar shadow-lg md:pl-4 rounded text-center md:text-left">About This Generator</h2>
