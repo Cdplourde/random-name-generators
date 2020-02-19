@@ -85,8 +85,13 @@ export default {
     'nuxt-purgecss',
     ['@nuxtjs/google-adsense', {
       id: 'ca-pub-2310955616732742'
-    }]
+    }],
+    '@nuxtjs/sitemap'
   ],
+  sitemap: {
+    generate: true,
+    hostname: 'http://www.random-name-generators.com'
+  },
   /*
    ** PurgeCSS settings
    */
