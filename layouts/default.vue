@@ -7,7 +7,7 @@
       <div class="bg-pallet-main min-h-full text-pallet-text px-4 pt-4 pb-4 md:px-8 shadow-lg md:ml-72 md:mr-4">
         <nuxt />
       </div>
-      <div v-if="!sidebarToggled" class="overlay w-full h-full absolute top-0 md:ml-72 md:mr-4"></div>
+      <div @click="toggleSidebar" v-if="!sidebarToggled" class="overlay w-full h-full absolute top-0 md:ml-72 md:mr-4"></div>
     </div>
     <Footer />
   </div>
@@ -27,7 +27,12 @@ export default {
   },
   computed: mapState([
     'sidebarToggled'
-  ])
+  ]),
+  methods: {
+    toggleSidebar() {
+        this.$store.dispatch('toggleSidebar')
+    }
+  }
 }
 </script>
 
