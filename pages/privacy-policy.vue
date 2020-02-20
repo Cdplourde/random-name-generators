@@ -1,7 +1,7 @@
 <template>
   <div class="text-white">
     <h1 class="text-3xl text-pallet-text">Privacy Policy of Random Name Generators</h1>
-    <p>Your privacy is important! Here is information on the information we collect and use when you visit random-name-generators.com. We will not use or share your information with anyone except as described in this privacy policy.</p>
+    <p>Your privacy is important! Here is the information we collect and use when you visit random-name-generators.com. We will not use or share your information with anyone except as described in this privacy policy.</p>
     <p>By using our name generators, you agree to the collection and use of information as stated in this privacy policy.</p>
     <h2 class="text-2xl text-pallet-text">Log Data</h2>
     <p>When you visit our website, we collect information that your browser sends to us called Log Data. Log Data may include information such as your computer's Internet Protocol (“IP”) address, browser version, the time and date of your visit, name generators you visit, the time spent on those pages, and other usage stats and information.</p>
@@ -22,6 +22,19 @@
     <p>If you have any questions or suggestions about our privacy policy, contact us at thecharactercomma@gmail.com.</p>
   </div>
 </template>
+
+<script>
+export default {
+  head () {
+    return {
+      title: 'Privacy Policy for Random Name Generators',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Our Privacy Policy - Learn how we collect and use information and usage data on our site.' }
+      ]
+    }
+  }
+}
+</script>
 
 <style scoped>
   p {
