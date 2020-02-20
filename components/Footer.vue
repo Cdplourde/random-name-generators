@@ -11,10 +11,6 @@
         </li>
         ·
         <li class="px-1 sm:px-4">
-          <router-link to="/sitemap.xml">Sitemap</router-link>
-        </li>
-        ·
-        <li class="px-1 sm:px-4">
           <router-link to="/privacy-policy">Privacy Policy</router-link>
         </li>
       </ul>
