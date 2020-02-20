@@ -1,5 +1,5 @@
 <template>
-  <footer class="fixed bottom-0 bg-pallet-navbar w-full h-12 z-50">
+  <footer class="absolute bg-pallet-navbar w-full h-12 z-50">
     <!-- footer inner content -->
     <div class="nav-inner mx-auto max-w-6xl h-full md:px-4">
       <!-- <p class="text-gray-300 h-full flex justify-center items-center text-lg">
@@ -12,7 +12,13 @@
         <!-- · -->
         <!-- <li class="px-1 sm:px-4">About</li> -->
         ·
-        <li class="px-1 sm:px-4">Sitemap</li>
+        <li class="px-1 sm:px-4">
+          <router-link to="/sitemap.xml">Sitemap</router-link>
+        </li>
+        ·
+        <li class="px-1 sm:px-4">
+          <router-link to="/privacy-policy">Privacy Policy</router-link>
+        </li>
       </ul>
     </div>
   </footer>
