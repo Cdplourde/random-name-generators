@@ -89,6 +89,7 @@ export default {
     '@nuxtjs/sitemap'
   ],
   sitemap: {
+    generate: true,
     hostname: 'http://www.random-name-generators.com'
   },
   /*
