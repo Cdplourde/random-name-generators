@@ -9,8 +9,6 @@
         <li class="px-1 sm:px-4">
           <router-link to="/">Random Name Generators © {{ getDate() }}</router-link>
         </li>
-        <!-- · -->
-        <!-- <li class="px-1 sm:px-4">About</li> -->
         ·
         <li class="px-1 sm:px-4">
           <router-link to="/sitemap.xml">Sitemap</router-link>
