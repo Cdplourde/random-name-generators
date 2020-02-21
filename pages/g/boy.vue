@@ -21,7 +21,7 @@
       <div class="lg:flex text-gray-300">
         <div class="flex-1 bg-pallet-background m-2 mt-4 ml-0 p-4 rounded shadow-xl">
           <h3 class="text-2xl pb-2">Random Boy Name Generator</h3>
-          <p class="pb-2">In need of a random male name? You’ve come to the right place! Find male baby name ideas or use it as a character name generator for the boys and men in your novel - you decide.</p>
+          <p class="pb-2">In need of a random male name? You’ve come to the right place! Find male baby name ideas or use it as a character name generator for the boys and men in your novel — you decide.</p>
           <p class="pb-2">This boy name generator includes over 800 male names from different time periods and cultural origins to offer a huge variety of options. Alternate spellings are also included so you can get creative and unique. You’re sure to find a name that fits your needs.</p>
           <p>Each time you click, this male name generator will create a list of 10 random boy names. If you don’t like your options, simply click again and you’ll get 10 more male names to choose from.</p>
         </div>
