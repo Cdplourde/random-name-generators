@@ -21,14 +21,15 @@
       <div class="lg:flex text-gray-300">
         <div class="flex-1 bg-pallet-background m-2 mt-4 ml-0 p-4 rounded shadow-xl">
           <h3 class="text-2xl pb-2">Random Boy Name Generator</h3>
-          <p class="pb-2">In need of a random male name? You’ve come to the right place! Find male baby name ideas or use it as a character name generator for the boys and men in your novel — you decide.</p>
-          <p class="pb-2">This boy name generator includes over 800 male names from different time periods and cultural origins to offer a huge variety of options. Alternate spellings are also included so you can get creative and unique. You’re sure to find a name that fits your needs.</p>
-          <p>Each time you click, this male name generator will create a list of 10 random boy names. If you don’t like your options, simply click again and you’ll get 10 more male names to choose from.</p>
+          <p class="pb-2">In need of a random male name? You’ve come to the right place! Find male name ideas or use it as a character name generator for the boys and men in your novel — you decide.</p>
+          <p class="pb-2">This boy name generator includes over 800 male names from different time periods and cultural origins to offer a huge variety of options. Alternate spellings are also included so you can get creative and unique.</p>
+          <p>Each time you click, the generator will create a list of 12 random boy names. If you don’t like your options, simply click again and you’ll get 12 more to choose from.</p>
         </div>
         <div class="flex-1 bg-pallet-background m-2 mt-4 mr-0 p-4 rounded shadow-xl">
           <h3 class="text-2xl pb-2">Generators for Male Names & More</h3>
-          <p class="pb-2">We’ve taken the time to gather and curate thousands of names and build them into fun and easy-to-use <router-link to="/">name generators</router-link>. In addition to boy names, we also have a <router-link to="/g/girl">girl name generator</router-link>, a <router-link to="/g/unisex">unisex name generator</router-link>, and many more!</p>
-          <p>We update each generator as we find new names so we can continue to offer as many choices as possible. Explore all our generators using the menu and have fun!</p>
+          <p class="pb-2">We’ve taken the time to gather and curate thousands of names and build them into fun and easy-to-use <router-link to="/">name generators</router-link>.</p>
+          <p>In addition to boy names, we also have a <router-link to="/g/girl">girl name generator</router-link>, a <router-link to="/g/unisex">unisex name generator</router-link>, and many more! You’re sure to find a name that fits your needs.</p>
+          <p>We update each generator as we find new names so we can continue to offer as many choices as possible. Explore all our generators and have fun!</p>
         </div>
       </div>
     </div>
