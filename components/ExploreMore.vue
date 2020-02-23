@@ -7,7 +7,7 @@
             <img
               class="shadow-xl"
               :src="boyNameImage"
-              alt="Boy Name Generator"
+              alt="Random Boy Names"
             >                
           </router-link>
         </li>
@@ -16,7 +16,7 @@
             <img
               class="shadow-xl"
               :src="girlNameImage"
-              alt="Girl Name Generator"
+              alt="Random Girl Names"
             >          
           </router-link>
         </li>
@@ -25,7 +25,7 @@
             <img
               class="shadow-xl"
               :src="firstNameImage"
-              alt="First Name Generator"
+              alt="Random First Names"
             >          
           </router-link>
         </li>
@@ -34,7 +34,7 @@
             <img
               class="shadow-xl"
               :src="unisexNamesImage"
-              alt="Unisex Name Generator"
+              alt="Random Unisex Names"
             >          
           </router-link>
         </li>
