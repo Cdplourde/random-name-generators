@@ -16,7 +16,7 @@
       <img
         class="generator-img mt-4 ml-2 rounded hidden lg:block max-w-full shadow-lg w-56 overflow"
         :src="image"
-        alt="placeholder"
+        :alt="title"
       >
     </div>
   </div>

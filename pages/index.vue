@@ -2,7 +2,7 @@
   <div>
     <h1 class="text-pallet-text text-3xl md:text-4xl bg-pallet-sidebar shadow-lg md:pl-4 rounded text-center md:text-left">Generate Random Names!</h1>
       <div class="bg-pallet-background text-gray-200 p-4 mt-4 rounded flex">
-        <p class="text-lg">Welcome to Random Name Generator! For babies, characters, and nicknames, choosing a name can be a daunting task. That’s where our collection of name generators comes in. Browse around and explore thousands of potential names. You’re sure to discover the perfect fit. </p>
+        <p class="text-lg">Welcome to Random Name Generator! For babies, characters, and nicknames, choosing a name can be a daunting task. That’s where our collection of name generators comes in. Browse around and explore thousands of potential names. You’re sure to discover the perfect fit.</p>
         <!-- <img class="flex-1 ml-2 rounded hidden lg:block max-w-full shadow-lg w-56 overflow w-1/2" :src="image" alt="random name generators"> -->
       </div>
     <!-- <button

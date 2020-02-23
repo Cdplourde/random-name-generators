@@ -27,8 +27,8 @@
         </div>
         <div class="flex-1 bg-pallet-background m-2 mt-4 mr-0 p-4 rounded shadow-xl">
           <h3 class="text-2xl pb-2">Generators for Female Names & More</h3>
-          <p>We’ve taken the time to gather and curate thousands of names and build them into fun and easy-to-use <router-link to="/">name generators</router-link>. Anytime you need a name, you know where to go!</p>
-          <p>In addition to girl names, we also have a <router-link to="/g/boy">boy name generator</router-link> and a <router-link to="/g/unisex">unisex name generator</router-link>. If you’re not particular about the gender of the name you need, check out our <router-link to="/g/first">first name generator</router-link>.</p>
+          <p class="pb-2">We’ve taken the time to gather and curate thousands of names and build them into fun and easy-to-use <router-link to="/">name generators</router-link>. Anytime you need a name, you know where to go!</p>
+          <p class="pb-2">In addition to girl names, we also have a <router-link to="/g/boy">boy name generator</router-link> and a <router-link to="/g/unisex">unisex name generator</router-link>. If you’re not particular about the gender of the name you need, check out our <router-link to="/g/first">first name generator</router-link>.</p>
           <p>We continually update each generator because we want to offer as many options as possible. Each list of names is curated by hand with research and care. Have fun exploring!</p>
         </div>
       </div>

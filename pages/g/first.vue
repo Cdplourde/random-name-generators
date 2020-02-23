@@ -28,7 +28,7 @@
         <div class="flex-1 bg-pallet-background m-2 mt-4 mr-0 p-4 rounded shadow-xl">
           <h3 class="text-2xl pb-2">Random First Names & More</h3>
           <p class="pb-2">Looking for something more specific? If you already have a gender in mind, head over to our <router-link to="/g/girl">girl name generator</router-link> or <router-link to="/g/boy">boy name generator</router-link> for a more specifically curated list of first names. For names that are gender neutral, check out our <router-link to="/g/unisex">unisex name generator</router-link>.</p>
-          <p>Over time we plan to keep adding more <router-link to="/">name generators</router-link>. We’re determined to offer the most sophisticated and varied name generators out there using research and hand-curated lists.</p>
+          <p class="pb-2">Over time we plan to keep adding more <router-link to="/">name generators</router-link>. We’re determined to offer the most sophisticated and varied name generators out there using research and hand-curated lists.</p>
           <p>Bookmark our site to keep up-to-date with our latest release of both fun and serious name generators. We’ll be here for all your naming needs!</p>
         </div>
       </div>
