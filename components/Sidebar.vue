@@ -4,26 +4,30 @@
     <div>
       <h3 class="text-pallet-text text-2xl pb-2">General Names</h3>
       <ul class="flex flex-col pl-4 text-xl">
-        <router-link
-          to="/g/first"
-          class="py-1"
-          v-on:click.native="toggleSidebar"
-        >All First Names</router-link>
-        <router-link
-          to="/g/boy"
-          class="py-1"
-          v-on:click.native="toggleSidebar"
-        >Boy Names</router-link>
-        <router-link
-          to="/g/girl"
-          class="py-1"
-          v-on:click.native="toggleSidebar"
-        >Girl Names</router-link>
-        <router-link
-          to="/g/unisex"
-          class="py-1"
-          v-on:click.native="toggleSidebar"
-        >Unisex Names</router-link>
+        <li class="py-1">
+          <router-link
+            to="/g/first"
+            v-on:click.native="toggleSidebar"
+          >All First Names</router-link>
+        </li>
+        <li class="py-1">
+          <router-link
+            to="/g/boy"
+            v-on:click.native="toggleSidebar"
+          >Boy Names</router-link>
+        </li>
+        <li class="py-1">
+          <router-link
+            to="/g/girl"
+            v-on:click.native="toggleSidebar"
+          >Girl Names</router-link>
+        </li>
+        <li class="py-1">
+          <router-link
+            to="/g/unisex"
+            v-on:click.native="toggleSidebar"
+          >Unisex Names</router-link>
+        </li>
       </ul>
     </div>
   </div>
@@ -49,6 +53,8 @@ export default {
   },
   mounted() {
     if (process.client) {
+      // Check client size, and toggle the sidebar if necessary
+      // If the page is hit on a small window size, insure sidebar is toggled off, and vice verca
       let mql = window.matchMedia('(max-width: 767px)')
       if (!this.$store.state.sidebarToggled) {
         this.$store.dispatch('toggleSidebar')
@@ -58,7 +64,7 @@ export default {
           this.$store.dispatch('toggleSidebar')
         }
       })
-    }    
+    }
   }
 }
 </script>
