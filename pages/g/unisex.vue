@@ -21,13 +21,13 @@
       <div class="text-gray-300 lg:flex">
         <div class="flex-1 p-4 m-2 mt-4 ml-0 rounded shadow-xl bg-pallet-background">
           <h3 class="pb-2 text-2xl">Random Unisex Name Generator </h3>
-          <p class="pb-2">Gender neutral names are the new popular trend, and it’s easy to see why! Unisex names often put a fresh twist on common names, making them modern and classic at the same time.</p>
-          <p class="pb-2">If you need a random gender neutral name, this is the place to look. Generate dozens of unisex names with just a few clicks of a button! If you don’t find a name that you like, simply click again.</p>
-          <p>The best part about unisex names is how flexible they are. Even if you don’t find the perfect fit you’re looking for in this unisex name generator, try using our <router-link to="/g/boy">boy</router-link> or <router-link to="/g/girl">girl</router-link> name generators instead. Break the norms and be the first to use a brand new gender neutral name.</p>
+          <p class="pb-2">Gender neutral names are growing in popularity, and it’s easy to see why! Unisex names often put a fresh twist on common names, making them modern and classic at the same time. Boy, girl, nonbinary, genderfluid — they’re an excellent fit for anyone!</p>
+          <p class="pb-2">If you need a random gender neutral name, this is the place to look. Generate dozens of nonbinary and unisex names with just a few clicks of a button! If you don’t find a name that you like, simply click again.</p>
+          <p>The best part about unisex names is how flexible they are. Even if you don’t find that just-right name you’re looking for, try using our <router-link to="/g/boy">boy</router-link> or <router-link to="/g/girl">girl</router-link> name generators instead. Break the norms and be the first to use a brand new gender neutral name.</p>
         </div>
         <div class="flex-1 p-4 m-2 mt-4 mr-0 rounded shadow-xl bg-pallet-background">
           <h3 class="pb-2 text-2xl">Generate Gender Neutral Names & More</h3>
-          <p class="pb-2">For all your naming needs, we have you covered! You’ve found our random unisex name generator, but explore our site to find hundreds more cool <router-link to="/g/first">first names</router-link> for your original characters, pets, expected babies, and more.</p>
+          <p class="pb-2">For all your naming needs, we have you covered! You’ve found our random unisex name generator, but explore our site to find hundreds more cool <router-link to="/g/first">first names</router-link> for yourself, original characters, pets, expected babies, and more.</p>
           <p>We’re constantly adding new generators to the site! Our carefully curated lists include as much variety in names as possible, including different time periods, cultures, and spellings. It only takes a few clicks to find the perfect name to fit your needs.</p>
         </div>
       </div>
@@ -74,7 +74,7 @@ export default {
     return {
       title: 'Unisex Name Generator - Get Gender Neutral Names Now!',
       meta: [
-        { hid: 'description', name: 'description', content: 'Find the perfect unisex name for characters, babies and more. Cute, unique and memorable gender-neutral names are only a click away!' }
+        { hid: 'description', name: 'description', content: 'Explore amazing nonbinary and unisex names for yourself, characters, babies, and more. Over 100 unique and memorable gender-neutral names to discover.' }
       ]
     }
   }

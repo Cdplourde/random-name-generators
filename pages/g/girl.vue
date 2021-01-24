@@ -21,14 +21,14 @@
       <div class="text-gray-300 lg:flex">
         <div class="flex-1 p-4 m-2 mt-4 ml-0 rounded shadow-xl bg-pallet-background">
           <h3 class="pb-2 text-2xl">Random Girl Name Generator</h3>
-          <p class="pb-2">If you need a random female name, you’ve come to the right place! This girl name generator includes over 850 female names from different time periods and cultural origins, giving you a huge variety of choices. </p>
+          <p class="pb-2">If you need a random female name, you’ve come to the right place! This girl name generator includes over 900 female names from different time periods and cultural origins, giving you a huge variety of choices. </p>
           <p class="pb-2">We also include alternate spellings for female names so you can get creative and unique. Feel out female baby name ideas, find inspiration for the female characters in your novel, or brainstorm names for your newest pet. The options are endless!</p>
           <p>Each time you click the button, this female name generator will create a list of 12 random girl names. Don’t like your options? Just click again and you’ll get 12 more female names to choose from.</p>
         </div>
         <div class="flex-1 p-4 m-2 mt-4 mr-0 rounded shadow-xl bg-pallet-background">
           <h3 class="pb-2 text-2xl">Generators for Female Names & More</h3>
           <p class="pb-2">We’ve taken the time to gather and curate thousands of names and build them into fun and easy-to-use <router-link to="/">name generators</router-link>. Anytime you need a name, you know where to go!</p>
-          <p class="pb-2">In addition to girl names, we also have a <router-link to="/g/boy">boy name generator</router-link> and a <router-link to="/g/unisex">unisex name generator</router-link>. If you’re not particular about the gender of the name you need, check out our <router-link to="/g/first">first name generator</router-link>.</p>
+          <p class="pb-2">In addition to girl names, we also have a <router-link to="/g/boy">boy name generator</router-link> and a <router-link to="/g/unisex">unisex name generator</router-link>. If you’re not particular about the type of the name you need, check out our <router-link to="/g/first">first name generator</router-link>.</p>
           <p>We continually update each generator because we want to offer as many options as possible. Each list of names is curated by hand with research and care. Have fun exploring!</p>
         </div>
       </div>
