@@ -19,13 +19,13 @@
     <div class="mt-8">
       <h2 class="text-2xl text-center rounded shadow-lg md:text-3xl bg-pallet-sidebar md:pl-4 md:text-left">About This Generator</h2>
       <div class="text-gray-300 lg:flex">
-        <div class="flex-1 p-4 m-2 mt-4 ml-2 rounded shadow-xl md:ml-2 bg-pallet-background">
+        <div class="flex-1 p-4 m-2 mt-4 ml-0 mr-0 rounded shadow-xl lg:mr-2 bg-pallet-background">
           <h3 class="pb-2 text-2xl">Random Girl Name Generator</h3>
           <p class="pb-2">If you need a random female name, you’ve come to the right place! This girl name generator includes over 900 female names from different time periods and cultural origins, giving you a huge variety of choices. </p>
           <p class="pb-2">We also include alternate spellings for female names so you can get creative and unique. Feel out female baby name ideas, find inspiration for the female characters in your novel, or brainstorm names for your newest pet. The options are endless!</p>
           <p>Each time you click the button, this female name generator will create a list of 12 random girl names. Don’t like your options? Just click again and you’ll get 12 more female names to choose from.</p>
         </div>
-        <div class="flex-1 p-4 m-2 mt-4 ml-2 rounded shadow-xl md:ml-2 bg-pallet-background">
+        <div class="flex-1 p-4 m-2 mt-4 ml-0 mr-0 rounded shadow-xl bg-pallet-background lg:ml-2">
           <h3 class="pb-2 text-2xl">Generators for Female Names & More</h3>
           <p class="pb-2">We’ve taken the time to gather and curate thousands of names and build them into fun and easy-to-use <router-link to="/">name generators</router-link>. Anytime you need a name, you know where to go!</p>
           <p class="pb-2">In addition to girl names, we also have a <router-link to="/g/boy">boy name generator</router-link> and a <router-link to="/g/unisex">unisex name generator</router-link>. If you’re not particular about the type of the name you need, check out our <router-link to="/g/first">first name generator</router-link>.</p>
