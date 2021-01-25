@@ -1,41 +1,41 @@
 <template>
-  <div class="mt-4 mx-auto w-full">
-      <h2 class="text-pallet-text text-2xl md:text-3xl bg-pallet-sidebar shadow-lg md:pl-4 rounded text-center md:text-left">{{ title }}</h2>
-      <ul class="flex w-full pt-4 justify-between flex-wrap lg:flex-no-wrap">
-        <li class="w-1/2 lg:w-auto flex justify-center pr-2">
+  <div class="w-full mx-auto mt-4">
+      <h2 class="text-2xl text-center rounded shadow-lg text-pallet-text md:text-3xl bg-pallet-sidebar md:pl-4 md:text-left">{{ title }}</h2>
+      <ul class="flex flex-wrap justify-between w-full pt-4 lg:flex-no-wrap">
+        <li class="flex justify-center w-1/2 pr-2 lg:w-auto">
           <router-link to="/g/boy">
             <img
               class="shadow-xl"
               :src="boyNameImage"
               alt="Random Boy Names"
-            >                
+            >
           </router-link>
         </li>
-        <li class="w-1/2 lg:w-auto flex justify-center pl-2 lg:px-2">
+        <li class="flex justify-center w-1/2 pl-2 lg:w-auto lg:px-2">
           <router-link to="/g/girl">
             <img
               class="shadow-xl"
               :src="girlNameImage"
               alt="Random Girl Names"
-            >          
+            >
           </router-link>
         </li>
-        <li class="w-1/2 lg:w-auto flex justify-center pt-4 lg:pt-0 pr-2 lg:px-2">
+        <li class="flex justify-center w-1/2 pt-4 pr-2 lg:w-auto lg:pt-0 lg:px-2">
           <router-link to="/g/first">
             <img
               class="shadow-xl"
               :src="firstNameImage"
               alt="Random First Names"
-            >          
+            >
           </router-link>
         </li>
-        <li class="w-1/2 lg:w-auto flex justify-center pt-4 lg:pt-0 pl-2">
+        <li class="flex justify-center w-1/2 pt-4 pl-2 lg:w-auto lg:pt-0">
           <router-link to="/g/unisex">
             <img
               class="shadow-xl"
               :src="unisexNamesImage"
               alt="Random Unisex Names"
-            >          
+            >
           </router-link>
         </li>
       </ul>

@@ -133,7 +133,7 @@ export default {
   },
   serverMiddleware: [
     redirectSSL.create({
-      enabled: true
+      enabled: false
     })
   ]
 }

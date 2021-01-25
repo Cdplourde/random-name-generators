@@ -1,13 +1,13 @@
 <template>
-  <div class="w-screen min-h-full bg-pallet-background overflow-x-hidden">
+  <div class="w-screen min-h-full overflow-x-hidden bg-pallet-background">
     <Navbar />
-    <div class="page-wrapper mx-auto max-w-6xl relative">
+    <div class="relative max-w-6xl mx-auto page-wrapper">
       <Sidebar />
       <!-- main content -->
-      <div class="bg-pallet-main min-h-full text-pallet-text px-4 pt-4 pb-4 md:px-8 shadow-lg md:ml-72 md:mr-4">
+      <div class="min-h-full px-4 pt-4 pb-4 shadow-lg bg-pallet-main text-pallet-text md:px-8 md:ml-72 md:mr-4">
         <nuxt />
       </div>
-      <div @click="toggleSidebar" v-if="!sidebarToggled" class="overlay w-full h-full absolute top-0 md:ml-72 md:mr-4"></div>
+      <div @click="toggleSidebar" v-if="!sidebarToggled" class="absolute top-0 w-full h-full overlay md:ml-72 md:mr-4"></div>
     </div>
     <Footer />
   </div>

@@ -1,32 +1,32 @@
 <template>
-  <div class="sidebar bg-pallet-sidebar fixed w-64 md:ml-4 shadow-lg md:block text-gray-300 p-6 z-50" ref="sticky" v-bind:class="{ 'hidden': this.$store.state.sidebarToggled }">
-    <!-- <h3 class="text-pallet-text text-xl">See All</h3> -->
+  <div class="fixed z-50 w-64 p-6 text-gray-300 shadow-lg sidebar bg-pallet-sidebar md:ml-4 md:block" ref="sticky" v-bind:class="{ 'hidden': this.$store.state.sidebarToggled }">
+    <!-- <h3 class="text-xl text-pallet-text">See All</h3> -->
     <div>
-      <h3 class="text-pallet-text text-2xl pb-2">General Names</h3>
+      <h3 class="pb-2 text-2xl text-pallet-text">General Names</h3>
       <ul class="flex flex-col pl-4 text-xl">
         <li class="py-1">
           <router-link
             to="/g/first"
             v-on:click.native="toggleSidebar"
-          >All First Names</router-link>
+          >All First Names <span class="text-pallet-text">{{ this.$route.name === "g-first" ? "\u25c4" : "" }}</span></router-link>
         </li>
         <li class="py-1">
           <router-link
             to="/g/boy"
             v-on:click.native="toggleSidebar"
-          >Boy Names</router-link>
+          >Boy Names <span class="text-pallet-text">{{ this.$route.name === "g-boy" ? "\u25c4" : "" }}</span></router-link>
         </li>
         <li class="py-1">
           <router-link
             to="/g/girl"
             v-on:click.native="toggleSidebar"
-          >Girl Names</router-link>
+          >Girl Names <span class="text-pallet-text">{{ this.$route.name === "g-girl" ? "\u25c4" : "" }}</span></router-link>
         </li>
         <li class="py-1">
           <router-link
             to="/g/unisex"
             v-on:click.native="toggleSidebar"
-          >Unisex Names</router-link>
+          >Unisex Names <span class="text-pallet-text">{{ this.$route.name === "g-unisex" ? "\u25c4" : "" }}</span></router-link>
         </li>
       </ul>
     </div>
