@@ -1,7 +1,7 @@
 <template>
   <div class="text-white">
     <h1 class="text-3xl text-pallet-text">Privacy Policy of Random Name Generators</h1>
-    <h2 class="font-bold pb-4">Updated February 24, 2020</h2>
+    <h2 class="pb-4 font-bold">Updated February 24, 2020</h2>
     <p>Your privacy is important! Here is the information we collect and use when you visit random-name-generators.com. We will not use or share your information with anyone except as described in this privacy policy.</p>
     <p>By using our name generators, you agree to the collection and use of information as stated in this privacy policy.</p>
     <h2 class="text-2xl text-pallet-text">Log Data</h2>
@@ -27,6 +27,7 @@
 
 <script>
 export default {
+  scrollToTop: true,
   head () {
     return {
       title: 'Privacy Policy for Random Name Generators',
