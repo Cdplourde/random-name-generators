@@ -92,7 +92,7 @@ export default {
   ],
   sitemap: {
     generate: true,
-    hostname: 'http://www.random-name-generators.com'
+    hostname: 'https://www.random-name-generators.com'
   },
   /*
    ** PurgeCSS settings
