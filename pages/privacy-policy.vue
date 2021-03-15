@@ -27,7 +27,9 @@
 
 <script>
 export default {
-  scrollToTop: true,
+  mounted: function () {
+    document.querySelector('.content').scrollTop = 0;
+  },
   head () {
     return {
       title: 'Privacy Policy for Random Name Generators',

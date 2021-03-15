@@ -28,6 +28,12 @@
             v-on:click.native="toggleSidebar"
           >Unisex Names <span class="text-pallet-text">{{ this.$route.name === "g-unisex" ? "\u25c4" : "" }}</span></router-link>
         </li>
+        <li class="py-1">
+          <router-link
+            to="/g/last"
+            v-on:click.native="toggleSidebar"
+          >Last Names <span class="text-pallet-text">{{ this.$route.name === "g-last" ? "\u25c4" : "" }}</span></router-link>
+        </li>
       </ul>
     </div>
   </div>

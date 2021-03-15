@@ -69,6 +69,7 @@ export default {
   },
   mounted: function () {
     this.getNames()
+    document.querySelector('.content').scrollTop = 0;
   },
   head () {
     return {

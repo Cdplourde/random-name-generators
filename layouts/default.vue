@@ -1,5 +1,5 @@
 <template>
-  <div class="w-screen min-h-full overflow-x-hidden bg-pallet-background">
+  <div class="w-screen min-h-full overflow-x-hidden content bg-pallet-background">
     <Navbar />
     <div class="relative max-w-6xl mx-auto page-wrapper">
       <Sidebar />

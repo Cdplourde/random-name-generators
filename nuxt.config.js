@@ -22,9 +22,9 @@ import redirectSSL from 'redirect-ssl'
 
 export default {
   mode: 'universal',
-  // env: {
-
-  // },
+  env: {
+    baseUrl: process.env.BASE_URL || 'http://localhost:3000'
+  },
   // server: {
   //   port: port,
   //   host: host,
@@ -133,7 +133,7 @@ export default {
   },
   serverMiddleware: [
     redirectSSL.create({
-      enabled: true
+      enabled: process.env.NODE_ENV === 'production'
     })
   ]
 }

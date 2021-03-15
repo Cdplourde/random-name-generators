@@ -61,6 +61,9 @@ export default {
       ]
     }
   },
+  mounted: function () {
+    document.querySelector('.content').scrollTop = 0;
+  },
   methods: {
     redirectRandomGenerator() {
       // TODO: pull generator names dynamically
