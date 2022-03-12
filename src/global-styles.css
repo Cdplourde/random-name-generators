@@ -1,0 +1,28 @@
+:root {
+  --footer-height: 3rem;
+  --header-height: 4rem;
+  --text-white: #e2e8f0;
+  --text-green: #00cda2;
+}
+
+* {
+  font-family: 'Saira', sans-serif;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 2.25em;
+}
+
+h2 {
+  font-size: 1.875em;
+}
+
+html {
+    background-color: #343c45;
+}
