@@ -6,7 +6,7 @@
 
 <style>
   header {
-    background-color: #10171e;
+    background-color: var(--bg-dark);
     height: var(--header-height);
   }
   .header-content {

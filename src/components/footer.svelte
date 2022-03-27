@@ -9,7 +9,7 @@
 
 <style>
   footer {
-    background-color: #10171e;
+    background-color: var(--bg-dark);
     color: var(--text-white);
     font-size: 1.125rem;
     height: var(--footer-height);

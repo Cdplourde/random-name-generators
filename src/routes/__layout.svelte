@@ -4,17 +4,13 @@
   import Header from '../components/header.svelte';
   import Footer from '../components/footer.svelte';
   import Sidebar from '../components/sidebar.svelte';
+  let toggled = true;
 </script>
 
-<svelte:head>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
-</svelte:head>
 
 <Header />
 <div class="main-content">
-  <Sidebar />
+  <Sidebar hideable={true} toggled={toggled} />
   <main>
     <slot />
   </main>
@@ -24,7 +20,7 @@
 <style>
   main {
     min-height: calc(100vh - var(--footer-height) - var(--header-height));
-    background-color: #27333e;
+    background-color: var(--bg-main);
     padding: 1rem 2rem 1rem 2rem;
     margin-right: 1rem;
   }
@@ -34,5 +30,14 @@
     min-height: calc(100vh - var(--footer-height) - var(--header-height));
     max-width: 80rem;
     margin: 0 auto;
+  }
+
+  @media (max-width: 768px) {
+    main {
+      margin-right: 0;
+    }
+    .main-content {
+      grid-template-columns: 1fr;
+    }
   }
 </style>
