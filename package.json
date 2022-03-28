@@ -26,5 +26,8 @@
     "dotenv": "^16.0.0",
     "pg": "^8.7.3",
     "sql-template-strings": "^2.2.2"
+  },
+  "engines": {
+    "node": "16.14.2"
   }
 }
