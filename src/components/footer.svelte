@@ -4,7 +4,7 @@
 </script>
 
 <footer>
-  <div>Random Name Generators © {year}<span class="separator">·</span>Privacy Policy</div>
+  <div><a href="/">Random Name Generators © {year}</a><span class="separator">·</span><a href="/privacy-policy">Privacy Policy</a></div>
 </footer>
 
 <style>
@@ -16,9 +16,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: none;
   }
 
   .separator {
     margin: 0 1rem 0 1rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--text-white);
+  }
+
+  @media (max-width: 640px) {
+    footer {
+      font-size: 0.9rem!important
+    }
   }
 </style>

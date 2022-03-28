@@ -1,4 +1,11 @@
-<div><slot></slot></div>
+<script>
+  export let mt = "0";
+  export let mr = "0";
+  export let mb = "0";
+  export let ml = "0";
+</script>
+
+<div style="margin: {mt} {mr} {mb} {ml}"><slot></slot></div>
 
 <style>
   div {
@@ -11,7 +18,7 @@
     margin-left: 1rem;
     margin-right: 1rem;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 900px) {
     div :global(*) {
       text-align: center;
     }

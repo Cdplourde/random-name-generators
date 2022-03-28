@@ -26,7 +26,7 @@
   button:hover {
     background-color: #00a381;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 640px) {
     button {
       width: 100%;
     }

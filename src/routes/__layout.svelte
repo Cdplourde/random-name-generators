@@ -4,19 +4,35 @@
   import Header from '../components/header.svelte';
   import Footer from '../components/footer.svelte';
   import Sidebar from '../components/sidebar.svelte';
-  let toggled = true;
+
+  import { sidebarToggled } from '/src/stores.js';
+  import { onMount } from 'svelte';
+
+  let sidebarStatus;
+
+  sidebarToggled.subscribe(value => {
+    sidebarStatus = value
+  })
+
+  function handleOverlayClick() {
+    sidebarToggled.set(false)
+  }
+
 </script>
 
-
-<Header />
-<div class="main-content">
-  <Sidebar hideable={true} toggled={toggled} />
-  <main>
-    <slot />
-  </main>
+<div class:no-scroll="{sidebarStatus}">
+  <Header />
+  {#if sidebarStatus}
+    <div class:overlay="{sidebarStatus}" on:click="{handleOverlayClick}"></div>
+  {/if}
+  <div class="main-content">
+    <Sidebar hideable={true} />
+    <main>
+      <slot />
+    </main>
+  </div>
+  <Footer />
 </div>
-<Footer />
-
 <style>
   main {
     min-height: calc(100vh - var(--footer-height) - var(--header-height));
@@ -31,8 +47,20 @@
     max-width: 80rem;
     margin: 0 auto;
   }
+  .overlay {
+    position: fixed;
+    top: 0;
+    height: 110vh;
+    width: 100%;  
+    background-color: black;
+    opacity: 0.65;
+  }
+  .no-scroll {
+    position: fixed;
+    overflow-y: scroll;
+  }
 
-  @media (max-width: 768px) {
+  @media (max-width: 900px) {
     main {
       margin-right: 0;
     }
