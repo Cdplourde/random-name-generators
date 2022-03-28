@@ -37,6 +37,7 @@
   p {
     color: var(--text-white);
     margin-bottom: 1rem;
+    font-size: 1.1rem;
   }
   a {
     text-decoration: none;
