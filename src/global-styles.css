@@ -16,6 +16,7 @@
 
 * {
   font-family: 'Saira', sans-serif;
+  font-display: swap;
   box-sizing: border-box;
   line-height: 1.5;
   transition: all 0.2s;
