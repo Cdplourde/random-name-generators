@@ -4,3 +4,4 @@ process.env.PGHOST ? '' : process.env.PGHOST = import.meta.env.VITE_PGHOST
 process.env.PGDATABASE ? '' : process.env.PGDATABASE = import.meta.env.VITE_PGDATABASE
 process.env.PGPORT ? '' : process.env.PGPORT = import.meta.env.VITE_PGPORT
 process.env.PGSSLMODE ? '' : process.env.PGSSLMODE = import.meta.env.VITE_PGSSLMODE
+process.env.CA_CERT ? '' : process.env.CA_CERT = import.meta.env.VITE_CA_CERT

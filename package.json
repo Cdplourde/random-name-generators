@@ -2,11 +2,11 @@
   "name": "random-name-generators",
   "version": "0.0.1",
   "scripts": {
-    "start": "svelte-kit preview",
+    "start": "svelte-kit preview --host",
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
     "package": "svelte-kit package",
-    "preview": "svelte-kit preview",
+    "preview": "svelte-kit preview --host",
     "lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
     "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
   },
