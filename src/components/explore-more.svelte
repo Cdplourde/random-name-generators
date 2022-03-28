@@ -6,18 +6,7 @@
 </script>
 
 <div style="margin: {mt} {mr} {mb} {ml}">
-  <a href="/g/boy">
-    <img src="/boy-male-name-generator.png" alt="Random Boy Names" title="Random Boy Names">
-  </a>
-  <a href="/g/girl">
-    <img src="/girl-female-name-generator.png" alt="Random Girl Names" title="Random Girl Names">
-  </a>
-  <a href="/g/first">
-    <img src="/all-first-name-generator.png" alt="Random First Names" title="Random First Names">
-  </a>
-  <a href="/g/unisex">
-    <img src="/unisex-gender-neutral-name-generator.png" alt="Random Unisex Names" title="Random Unisex Names">
-  </a>
+  <slot></slot>
 </div>
 
 <style>
@@ -27,11 +16,11 @@
     justify-items: space-between;
     grid-gap: 2rem;
   }
-  div a {
+  div :global(a) {
     display: flex;
     justify-content: center;
   }
-  div img {
+  div :global(img) {
     box-shadow: 0 20px 25px -5px rgb(0 0 0 / 10%), 0 10px 10px -5px rgb(0 0 0 / 4%);
     max-width: 100%;
   }

@@ -47,6 +47,7 @@
   div :global(img) {
     border-radius: 0.25rem;
     margin-left: 1rem;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 10%), 0 10px 10px -5px rgb(0 0 0 / 4%);
   }
   @media (max-width: 1024px) {
     div :global(img) {

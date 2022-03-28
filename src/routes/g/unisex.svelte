@@ -33,7 +33,20 @@
   <SectionTitle>
     <h2>Explore More Generators</h2>
   </SectionTitle>
-  <ExploreMore mt="1rem" mb="2rem"></ExploreMore>
+  <ExploreMore mt="1rem" mb="2rem">
+    <a href="/g/boy">
+      <img src="/boy-male-name-generator.png" alt="Random Boy Names" title="Random Boy Names">
+    </a>
+    <a href="/g/girl">
+      <img src="/girl-female-name-generator.png" alt="Random Girl Names" title="Random Girl Names">
+    </a>
+    <a href="/g/first">
+      <img src="/all-first-name-generator.png" alt="Random First Names" title="Random First Names">
+    </a>
+    <a href="/g/last">
+      <img src="/last-name-surname-generator.png" alt="Random Last Names" title="Random Last Names">
+    </a>
+  </ExploreMore>
   <SectionTitle>
     <h2>About This Generator</h2>
   </SectionTitle>
