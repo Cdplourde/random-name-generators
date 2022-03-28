@@ -48,7 +48,7 @@
   <SectionTitle>
     <h2>About Random Name Generators</h2>
   </SectionTitle>
-  <Textbox mt="1rem" mb="1rem">
+  <Textbox mt="1rem" mb="1rem" gridColumns="2">
     <div>
       <h3>Find the Perfect Name</h3>
       <p class="small">Names can be hard. There’s a lot of pressure to find that perfect name, that perfect fit!</p>

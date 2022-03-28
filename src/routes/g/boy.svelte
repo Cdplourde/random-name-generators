@@ -37,7 +37,7 @@
   <SectionTitle>
     <h2>About This Generator</h2>
   </SectionTitle>
-  <Textbox mt="1rem" mb="1rem">
+  <Textbox mt="1rem" mb="1rem" gridColumns="2">
     <div>
       <h3>Random Boy Name Generator</h3>
       <p class="small">In need of a random male name? You’ve come to the right place! Find male name ideas or use it as a character name generator for the boys and men in your novel — you decide.</p>

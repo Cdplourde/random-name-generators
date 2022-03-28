@@ -37,7 +37,7 @@
   <SectionTitle>
     <h2>About This Generator</h2>
   </SectionTitle>
-  <Textbox mt="1rem" mb="1rem">
+  <Textbox mt="1rem" mb="1rem" gridColumns="2">
     <div>
       <h3>Random Girl Name Generator</h3>
       <p class="small">If you need a random female name, you’ve come to the right place! This girl name generator includes over 900 female names from different time periods and cultural origins, giving you a huge variety of choices.</p>

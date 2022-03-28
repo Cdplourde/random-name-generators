@@ -37,7 +37,7 @@
   <SectionTitle>
     <h2>About This Generator</h2>
   </SectionTitle>
-  <Textbox mt="1rem" mb="1rem">
+  <Textbox mt="1rem" mb="1rem" gridColumns="2">
     <div>
       <h3>First Name Generator for Every Need</h3>
       <p class="small">There can be a lot of stress when picking out a first name, so let a generator do it for you! Whether you stumble upon the perfect name or see something close enough to inspire you, with just a click of the button our random first name generator will make a list of 12 names.</p>

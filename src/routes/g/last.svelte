@@ -37,7 +37,7 @@
   <SectionTitle>
     <h2>About This Generator</h2>
   </SectionTitle>
-  <Textbox mt="1rem" mb="1rem">
+  <Textbox mt="1rem" mb="1rem" gridColumns="2">
     <div>
       <h3>Find a Random Last Name</h3>
       <p class="small">Looking for a last name for an original character, alias, one-off random name, or something else? You’ve come to the right place!</p>

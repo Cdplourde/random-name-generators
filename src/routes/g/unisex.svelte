@@ -37,7 +37,7 @@
   <SectionTitle>
     <h2>About This Generator</h2>
   </SectionTitle>
-  <Textbox mt="1rem" mb="1rem">
+  <Textbox mt="1rem" mb="1rem" gridColumns="2">
     <div>
       <h3>Random Unisex Name Generator</h3>
       <p class="small">Gender neutral names are growing in popularity, and it’s easy to see why! Unisex names often put a fresh twist on common names, making them modern and classic at the same time. Boy, girl, nonbinary, genderfluid — they’re an excellent fit for anyone!</p>

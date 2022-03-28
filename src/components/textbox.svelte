@@ -3,9 +3,10 @@
   export let mr = "0";
   export let mb = "0";
   export let ml = "0";
+  export let gridColumns = "1"
 </script>
 
-<div style="margin: {mt} {mr} {mb} {ml}"><slot></slot></div>
+<div id="ye" style="margin: {mt} {mr} {mb} {ml}; grid-template-columns: repeat({gridColumns}, 1fr);"><slot></slot></div>
 
 <style>
   div {
@@ -47,6 +48,7 @@
   @media (max-width: 900px) {
     div {
       grid-auto-flow: row;
+      grid-template-columns: 1fr!important;
     }
   }
 </style>
