@@ -4,7 +4,7 @@
 </script>
 
 <footer>
-  <div><a href="/">Random Name Generators © {year}</a><span class="separator">·</span><a href="/about">About</a><span class="separator">·</span><a href="/privacy-policy">Privacy Policy</a></div>
+  <div><a href="/">Random Name Generators © {year}</a><span class="separator">·</span><a href="/about">About</a><span class="separator">·</span><a href="/privacy-policy">Privacy Policy</a><span class="separator">·</span><a href="/sitemap.xml">Sitemap</a></div>
 </footer>
 
 <style>

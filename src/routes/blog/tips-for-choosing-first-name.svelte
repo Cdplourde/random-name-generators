@@ -47,19 +47,19 @@
     <p>In the case of fictional characters, nicknames open up a ton of opportunities for unique interactions and relationships. For example, nicknames that are only used by one other character can be a sweet way to show a relationship specific to those two.</p>
   </div>
   <div class="blog-section">
-    <h3>7. Consider how the first and last name works together.</h3>
+    <h3>7. Consider how the first and last name works together</h3>
     <p>Often, characters in fiction have alliterative names. Think of superheroes such as Peter Parker or Clark Kent. This makes the name catchy and memorable!</p>
     <p>You may or may not want to take this route when naming a baby or character. Wacky wordplay can come off as cartoonish if you aren’t careful. It’s one of those naming techniques that can go either way.</p>
     <p>Say the first and last names out loud to see how they sound together. Say it a few times and in different contexts—a question, a statement, a shout. Is it easy to say? Do you trip over your tongue?</p>
     <p>Naming a character and need help choosing a last name? Check out our <a href="/g/last">last name generator</a>!</p>
   </div>
   <div class="blog-section">
-    <h3>8. Write out the name’s initials.</h3>
+    <h3>8. Write out the name’s initials</h3>
     <p>If you’re torn between a handful of names, a trick like this can help you trim down your list and choose!</p>
     <p>When you add a middle name, there’s a lot of opportunity for some very unfortunate 3-letter initial combinations. Do the initials spell out a word? Is it a negative or unprofessional word? Especially when it comes to naming children, do your future kid a favor by avoiding initials like DIE or TIT.</p>
   </div>
   <div class="blog-section">
-    <h3>9. Sleep on it.</h3>
+    <h3>9. Sleep on it</h3>
     <p>When you spend a lot of time looking at the same name, it can start to sound distorted and strange. It’s good to take breaks!</p>
     <p>For such an important decision, choosing a name shouldn’t be rushed. Sometimes it’s also good to sleep on a name and see how it sounds the next morning.</p>
     <p>Sharing the names with friends or family can be an excellent way to gather feedback, just be sure to take everyone’s opinions with a grain of salt. Don’t let someone dissuade you from a name you truly love just because they knew a guy in high school with the same name and he was a jerk. It’s ultimately your decision!</p>
