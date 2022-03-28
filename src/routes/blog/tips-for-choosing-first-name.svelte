@@ -7,7 +7,7 @@
   <div class="blog-section">
     <h2>9 Tips for Choosing the Perfect First Name</h2>
     <p>It’s a monumental decision. Whether it’s a newborn’s name, your own new identity, or the lead protagonist in your latest novel, choosing a first name is something deeply personal that could last a lifetime.</p>
-    <p>All that pressure builds up to find the <em>perfect</em> name. It’s no wonder that choosing a name can be terrifying and challenging! You might find plenty of potential candidates while exploring our <a href="/g/boy">boy names</a> and <a>girl names</a> generators, but narrowing down your options is the real challenge.</p>
+    <p>All that pressure builds up to find the <em>perfect</em> name. It’s no wonder that choosing a name can be terrifying and challenging! You might find plenty of potential candidates while exploring our <a href="/g/boy">boy names</a> and <a href="/g/girl">girl names</a> generators, but narrowing down your options is the real challenge.</p>
     <p>If you find yourself struggling to decide on a name for a baby, character, or yourself, here are some tricks you can use to smooth along the process.</p>
   </div>
   <div class="blog-section">
@@ -19,7 +19,7 @@
   </div>
   <div class="blog-section">
     <h3>2. Explore name meanings</h3>
-    <p>Some names are rooted in meaning that can add depth and meaning to your chosen name. There are plenty of name origin websites out there (such as <a href="https://www.behindthename.com/">Behind the Name</a> and <a href="https://www.names.org/">Names.org</a>), so take a look!</p>    
+    <p>Some names are rooted in meaning that can add depth and meaning to your chosen name. There are plenty of name origin websites out there (such as <a href="https://www.behindthename.com/" target="_blank">Behind the Name</a> and <a href="https://www.names.org/" target="_blank">Names.org</a>), so take a look!</p>    
   </div>
   <div class="blog-section">
     <h3>3. Brainstorm possible personal or historical inspirations for a name</h3>
