@@ -60,6 +60,7 @@
     <div>
       <h3>Generate Gender Neutral Names & More</h3>
       <p class="small">For all your naming needs, we have you covered! You’ve found our random unisex name generator, but explore our site to find hundreds more cool <a href="/g/first">first names</a> for yourself, original characters, pets, expected babies, and more.</p>
+      <p class="small">Naming a character? Check out our <a href="/blog/tips-for-choosing-first-name">tips for choosing a name</a>, then grab a <a href="/g/last">last name</a> to complete your character while you’re here.</p>
       <p class="small">We’re constantly adding new generators to the site! Our carefully curated lists include as much variety in names as possible, including different time periods, cultures, and spellings. It only takes a few clicks to find the perfect name to fit your needs.</p>
     </div>
   </Textbox>  

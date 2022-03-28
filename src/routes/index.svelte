@@ -66,7 +66,8 @@
       <h3>Find the Perfect Name</h3>
       <p class="small">Names can be hard. There’s a lot of pressure to find that perfect name, that perfect fit!</p>
       <p class="small">We developed Random Name Generators as a user-friendly tool to browse dozens of names at a time. Instead of getting overwhelmed by long lists, explore options in small, manageable chunks. It’s the best way to find names without getting a headache or skimming over a hidden gem.</p>
-      <p class="small">Click through lots of options quickly until you chance upon one that clicks! With so many possibilities, you’re sure to find exactly what you need to name babies, pets, original characters, and more.</p>
+      <p class="small">Sift through lots of options quickly until you chance upon one that clicks! With so many possibilities, you’re sure to find exactly what you need to name babies, pets, original characters, and more.</p>
+      <p class="small">See Also: <a href="/blog/tips-for-choosing-first-name">9 Tips for Choosing the Perfect First Name</a></p>
     </div>
     <div>
       <h3>Name Generators For Every Need</h3>

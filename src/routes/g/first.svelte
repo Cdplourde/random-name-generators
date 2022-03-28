@@ -53,15 +53,15 @@
   <Textbox mt="1rem" mb="1rem" gridColumns="2">
     <div>
       <h3>First Name Generator for Every Need</h3>
-      <p class="small">There can be a lot of stress when picking out a first name, so let a generator do it for you! Whether you stumble upon the perfect name or see something close enough to inspire you, with just a click of the button our random first name generator will make a list of 12 names.</p>
+      <p class="small">Stressed about picking out a first name? Let a generator do it for you. Every click generates 12 names to help you stumble upon the perfect name or see something that inspires you. Name original characters, expected babies, or even pets with just a few clicks of a button.</p>
       <p class="small">This random first name generator contains a huge variety! It includes male, female, and unisex names from a mix of time periods and cultures. In total, there are over 1800 first names to choose from.</p>
-      <p class="small">Name original characters, expected babies, or even pets with just a few clicks of a button. It’s that easy!</p>
+      <p class="small">When the name matters, it's worth your time to think a choice through. Check out our <a href="/blog/tips-for-choosing-first-name">tips for choosing the perfect first name</a> and rest easy that you’ve made the best choice possible!</p>
     </div>
     <div>
       <h3>Random First Names & More</h3>
       <p class="small">Looking for something more specific? If you already have a gender in mind, head over to our <a href="/g/girl">girl name generator</a> or <a href="/g/boy">boy name generator</a> for a more specifically curated list of first names. For names that are nonbinary or gender neutral, check out our <a href="/g/unisex">unisex name generator</a>.</p>
       <p class="small">Over time we plan to keep adding more <a href="/">name generators</a>. We’re determined to offer the most sophisticated and varied name generators out there using research and hand-curated lists.</p>
-      <p class="small">Bookmark our site to keep up-to-date with our latest release of both fun and serious name generators. We’ll be here for all your naming needs!</p>
+      <p class="small">Bookmark our site to keep up-to-date with our latest release of both fun and serious name generators. From first names to <a href="/g/last">last names</a>, we’re here to help!</p>
     </div>
   </Textbox>  
 </div>

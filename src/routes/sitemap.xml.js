@@ -46,7 +46,22 @@ export async function get() {
         <url>
           <loc>https://www.random-name-generators.com/privacy-policy</loc>
           <lastmod>2022-03-28</lastmod>
-          <changefreq>monthly</changefreq>
+          <changefreq>yearly</changefreq>
+        </url>
+        <url>
+          <loc>https://www.random-name-generators.com/about</loc>
+          <lastmod>2022-03-28</lastmod>
+          <changefreq>yearly</changefreq>
+        </url>
+        <url>
+          <loc>https://www.random-name-generators.com/disclaimer</loc>
+          <lastmod>2022-03-28</lastmod>
+          <changefreq>yearly</changefreq>
+        </url>
+        <url>
+          <loc>https://www.random-name-generators.com/tips-for-choosing-first-name</loc>
+          <lastmod>2022-03-28</lastmod>
+          <changefreq>yearly</changefreq>
         </url>
       </urlset>
     `.trim()

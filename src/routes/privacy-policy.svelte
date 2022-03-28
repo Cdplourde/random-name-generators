@@ -25,6 +25,7 @@
 <p>This privacy policy was last updated on February 24, 2020. We may update our privacy policy from time to time, so review this page periodically for changes. New policies updated to this privacy policy are effective immediately after they are posted on this page.</p>
 <h3>Contact Us</h3>
 <p>If you have any questions or suggestions about our privacy policy, contact us at thecharactercomma@gmail.com.</p>
+<p><a href="/disclaimer">View our Disclaimer</a></p>
 
 <style>
   h2, h3 {

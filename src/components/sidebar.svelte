@@ -24,6 +24,10 @@
       <li>{#if $page.url.pathname == '/g/unisex'} <div class="highlight"></div>{/if}<a href="/g/unisex" on:click="{toggleSidebar}">Unisex Names</a></li>
       <li>{#if $page.url.pathname == '/g/last'} <div class="highlight"></div>{/if}<a href="/g/last" on:click="{toggleSidebar}">Last Names</a></li>
     </ul>
+    <h3>Resources</h3>
+    <ul>
+      <li>{#if $page.url.pathname == '/blog/tips-for-choosing-first-name'} <div class="highlight"></div>{/if}<a href="/blog/tips-for-choosing-first-name" on:click="{toggleSidebar}">9 Tips for Choosing the Perfect Name</a></li>
+    </ul>
   </div>
 </nav>
 
@@ -48,6 +52,10 @@
     color: var(--text-green);
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
+  }
+
+  h3:not(:first-of-type) {
+    margin-top: 1.5rem;
   }
 
   ul {
