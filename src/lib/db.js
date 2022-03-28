@@ -1,5 +1,6 @@
 import { variables } from '$lib/variables';
-import { Pool } from 'pg'
+import pg from 'pg'
+const Pool = pg.Pool
 
 const pool = new Pool({
   user: variables.DB_USER,
