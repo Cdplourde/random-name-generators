@@ -2,7 +2,6 @@ import '$lib/variables';
 import pg from 'pg'
 const Pool = pg.Pool
 
-console.log(process.env.CA_CERT)
 const cxn = {
   user: process.env.PGUSER,
   password: process.env.PGPASSWORD,
