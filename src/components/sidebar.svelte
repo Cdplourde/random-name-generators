@@ -47,6 +47,21 @@
 </nav>
 
 <style>
+  nav::-webkit-scrollbar {
+    width: 20px;
+  }
+  nav::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  nav::-webkit-scrollbar-thumb {
+    background-color: #343c45;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+  }
+  nav::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(68, 77, 87);
+  }
   .gad {
     margin-top: 2rem;
   }
