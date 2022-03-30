@@ -28,10 +28,28 @@
     <ul>
       <li>{#if $page.url.pathname == '/blog/tips-for-choosing-first-name'} <div class="highlight"></div>{/if}<a href="/blog/tips-for-choosing-first-name" on:click="{toggleSidebar}">9 Tips for Choosing the Perfect Name</a></li>
     </ul>
+    <div class="gad">
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2310955616732742"
+      crossorigin="anonymous"></script>
+      <!-- sidebar ad -->
+      <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-2310955616732742"
+         data-ad-slot="2732894375"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+        <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
+
   </div>
 </nav>
 
 <style>
+  .gad {
+    margin-top: 2rem;
+  }
   nav {
     position: sticky;
     background-color: var(--bg-med);
