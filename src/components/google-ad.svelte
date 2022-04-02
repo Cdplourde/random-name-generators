@@ -8,8 +8,7 @@
   const unsubscribe = page.subscribe((e) => {
     if (typeof window !== "undefined" && typeof document !== "undefined" && adcontainer) {
       if (!initialRun) {
-        const adiframe = adcontainer.querySelector('iframe');
-        adiframe ? adiframe.src = adiframe.src : '';
+        window.location.reload()
       }
     }
   });
@@ -18,6 +17,7 @@
 
   onMount(() => {
     (window.adsbygoogle = window.adsbygoogle || []).push({});
+    console.log(window);
     initialRun = false;
   });
 </script>
