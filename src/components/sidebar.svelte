@@ -16,8 +16,11 @@
   }
 
   function refreshAd() {
+    console.log(displayAd)
     displayAd = false;
-    displayAd = true;
+    setTimeout(() => {
+      displayAd = true;
+    }, 0);
   }
 
 </script>
