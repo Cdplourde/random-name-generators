@@ -17,7 +17,6 @@
 
   onMount(() => {
     (window.adsbygoogle = window.adsbygoogle || []).push({});
-    console.log(window);
     initialRun = false;
   });
 </script>
