@@ -1,16 +1,21 @@
 <script>
-  import { onMount } from 'svelte';
+  import { onDestroy, onMount } from 'svelte';
   import { page } from '$app/stores';
+  let adcontainer;
 
   let initialRun = true;
 
-  // if (typeof window !== "undefined" && typeof document !== "undefined") {
-  //   page.subscribe(() => {
-  //     if (!initialRun) {
-  //       (window.adsbygoogle = window.adsbygoogle || []).push({});
-  //     }
-  //   })
-  // }
+  const unsubscribe = page.subscribe((e) => {
+    if (typeof window !== "undefined" && typeof document !== "undefined" && adcontainer) {
+      if (!initialRun) {
+        console.log(adcontainer)
+        const adiframe = adcontainer.querySelector('iframe');
+        adiframe ? adiframe.contentWindow.location.reload() : '';
+      }
+    }
+  });
+
+  onDestroy(unsubscribe);
 
   onMount(() => {
     (window.adsbygoogle = window.adsbygoogle || []).push({});
@@ -22,6 +27,6 @@
 
 </style>
 
-<div class="ads-widget-container">
+<div bind:this={adcontainer} class="ads-widget-container">
   <slot></slot>
 </div>
