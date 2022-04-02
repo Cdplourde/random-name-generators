@@ -8,9 +8,8 @@
   const unsubscribe = page.subscribe((e) => {
     if (typeof window !== "undefined" && typeof document !== "undefined" && adcontainer) {
       if (!initialRun) {
-        console.log(adcontainer)
         const adiframe = adcontainer.querySelector('iframe');
-        adiframe ? adiframe.contentWindow.location.reload() : '';
+        adiframe ? adiframe.src = adiframe.src : '';
       }
     }
   });
