@@ -7,7 +7,6 @@
   import GoogleAnalytics from '../components/google-analytics.svelte';
 
   import { sidebarToggled } from '/src/stores.js';
-  import { onMount } from 'svelte';
 
   let sidebarStatus;
 
