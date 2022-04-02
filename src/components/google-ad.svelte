@@ -1,6 +1,8 @@
 <script>
-  import { onDestroy, onMount } from 'svelte';
+  import { onDestroy, onMount, createEventDispatcher } from 'svelte';
   import { page } from '$app/stores';
+
+  const dispatch = createEventDispatcher();
   let adcontainer;
 
   let initialRun = true;
@@ -8,7 +10,7 @@
   const unsubscribe = page.subscribe((e) => {
     if (typeof window !== "undefined" && typeof document !== "undefined" && adcontainer) {
       if (!initialRun) {
-        window.location.reload()
+        dispatch('refresh-ad')
       }
     }
   });
