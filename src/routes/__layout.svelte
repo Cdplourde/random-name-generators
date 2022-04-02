@@ -4,6 +4,7 @@
   import Header from '../components/header.svelte';
   import Footer from '../components/footer.svelte';
   import Sidebar from '../components/sidebar.svelte';
+  import GoogleAnalytics from '../components/google-analytics.svelte';
 
   import { sidebarToggled } from '/src/stores.js';
   import { onMount } from 'svelte';
@@ -19,7 +20,7 @@
   }
 
 </script>
-
+<GoogleAnalytics />
 <div class:no-scroll="{sidebarStatus}">
   <Header />
   {#if sidebarStatus}

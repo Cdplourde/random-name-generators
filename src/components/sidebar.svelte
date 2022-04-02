@@ -1,6 +1,7 @@
 <script>
   import { page } from '$app/stores';
   import { sidebarToggled } from '/src/stores.js';
+  import GoogleAd from './google-ad.svelte';
   export let hideable = false;
 
   let sidebarStatus;
@@ -28,21 +29,15 @@
     <ul>
       <li>{#if $page.url.pathname == '/blog/tips-for-choosing-first-name'} <div class="highlight"></div>{/if}<a href="/blog/tips-for-choosing-first-name" on:click="{toggleSidebar}">9 Tips for Choosing the Perfect Name</a></li>
     </ul>
-    <div class="gad">
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2310955616732742"
-      crossorigin="anonymous"></script>
-      <!-- sidebar ad -->
+    <GoogleAd>
       <ins class="adsbygoogle"
-         style="display:block"
+         style="display:block;"
          data-ad-client="ca-pub-2310955616732742"
          data-ad-slot="2732894375"
          data-ad-format="auto"
-         data-full-width-responsive="true"></ins>
-        <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-    </div>
-
+         data-full-width-responsive="true">
+      </ins>
+    </GoogleAd>
   </div>
 </nav>
 
@@ -61,9 +56,6 @@
   }
   nav::-webkit-scrollbar-thumb:hover {
     background-color: rgb(68, 77, 87);
-  }
-  .gad {
-    margin-top: 2rem;
   }
   nav {
     position: sticky;
@@ -87,15 +79,12 @@
     margin-bottom: 0.5rem;
   }
 
-  h3:not(:first-of-type) {
-    margin-top: 1.5rem;
-  }
-
   ul {
     list-style: none;
     font-size: 1.25rem;
     padding-left: 1rem;
     margin: 0;
+    margin-bottom: 1.5rem;
   }
 
   li {
