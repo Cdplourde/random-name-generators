@@ -4,13 +4,13 @@
 
   let initialRun = true;
 
-  if (typeof window !== "undefined" && typeof document !== "undefined") {
-    page.subscribe(() => {
-      if (!initialRun) {
-        (window.adsbygoogle = window.adsbygoogle || []).push({});
-      }
-    })
-  }
+  // if (typeof window !== "undefined" && typeof document !== "undefined") {
+  //   page.subscribe(() => {
+  //     if (!initialRun) {
+  //       (window.adsbygoogle = window.adsbygoogle || []).push({});
+  //     }
+  //   })
+  // }
 
   onMount(() => {
     (window.adsbygoogle = window.adsbygoogle || []).push({});
